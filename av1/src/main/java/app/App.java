@@ -16,7 +16,17 @@ public class App {
         produtos.addProduct(produto3);
         produtos.addProduct(produto4);
         
+        //produtos.listAllProducts();
+        
+        produtos.changeProduct(1, 3);
+        
+        produtos.removeProduct(3);
+        
+        produtos.listProduct(1);
+        
         produtos.listAllProducts();
+        
+        
     }
     
 }

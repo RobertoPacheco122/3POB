@@ -66,7 +66,7 @@ public class Produtos {
     }
     
     public void listProduct(int posicaoLista){
-        System.out.printf("DADOS DO PRODUTO %d\n", posicaoLista);
+        System.out.printf("\n\nDADOS DO PRODUTO %d\n", posicaoLista);
         System.out.printf("Id: %s\n", listaProdutos.get(posicaoLista).getId());
         System.out.printf("Código de Barras: %s\n", listaProdutos.get(posicaoLista).getCodigoBarras());
         System.out.printf("Sku: %s\n", listaProdutos.get(posicaoLista).getSku());
